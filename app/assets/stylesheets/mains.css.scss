@@ -1,0 +1,51 @@
+// Place all the styles related to the Mains controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+*{
+	/*outline: dotted green 1px;*/
+}
+
+.container{
+	width: 90%;
+}
+
+.header{
+	background-image: url('header_background.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.me{
+	height: 200px;
+	width: 200px;
+	border-radius: 100px;
+}
+
+.links{
+	text-align: right;
+	margin-right: 30px;
+	margin-top: 20px;
+}
+	.links a{
+		margin-right: 60px;
+		color: white;
+		font-weight: bold;
+		font-size: 18px;
+	}
+
+.stacks{
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 35px;
+}
+
+.projects{
+	margin-top: 100px;
+}
+	.project_pic{
+		width: 85%;
+	}
