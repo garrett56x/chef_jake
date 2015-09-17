@@ -33,6 +33,9 @@
 		font-weight: bold;
 		font-size: 18px;
 	}
+	.black{
+		color: black;
+	}
 
 .stacks{
 	width: 80%;
@@ -49,3 +52,20 @@
 	.project_pic{
 		width: 85%;
 	}
+
+.octocat{
+	height: 200px;
+	width: 200px;
+	border-radius: 100px;
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.linkedIn{
+	height: 200px;
+	width: 200px;
+	border-radius: 10px;
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 20px;
+}

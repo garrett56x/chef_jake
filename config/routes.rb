@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :contact, :mains, :projects
 
   root 'mains#index'
 
