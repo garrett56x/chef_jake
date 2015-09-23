@@ -51,6 +51,10 @@
 }
 	.project_pic{
 		width: 85%;
+		border-radius: 5px;
+	}
+	.project_link:hover{
+		box-shadow: 5px 5px 5px grey;
 	}
 
 .octocat{
@@ -60,6 +64,9 @@
 	display: inline-block;
 	margin-top: 20px;
 }
+	.octocat:hover{
+		box-shadow: 5px 5px 5px grey;
+	}
 
 .linkedIn{
 	height: 200px;
@@ -69,3 +76,6 @@
 	margin-top: 20px;
 	margin-left: 20px;
 }
+	.linkedIn:hover{
+		box-shadow: 5px 5px 5px grey;
+	}
