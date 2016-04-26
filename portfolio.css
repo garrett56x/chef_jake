@@ -1,0 +1,58 @@
+*{
+	/*outline: dotted green 1px;*/
+}
+
+.container{
+	width: 90%;
+}
+
+.header{
+	background-image: url('header_background.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.me{
+	height: 200px;
+	width: 200px;
+	border-radius: 100px;
+}
+
+.links{
+	text-align: right;
+	margin-right: 30px;
+	margin-top: 20px;
+}
+	.links a{
+		margin-right: 60px;
+		color: white;
+		font-weight: bold;
+		font-size: 18px;
+	}
+
+.jumbotron{
+	background-color: rgba(0,0,0,0.4);
+	margin-top: 5%;
+	margin-bottom: 8%;
+	color: white;
+}
+
+.stacks{
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 35px;
+}
+
+.projects{
+	margin-top: 100px;
+}
+	.project_pic{
+		width: 85%;
+	}
+
+.btn-xs{
+	margin-bottom: 5px;
+}
