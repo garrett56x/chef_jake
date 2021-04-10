@@ -1,0 +1,19 @@
+.menu {}
+  .menu .content {
+    text-align: left;
+    margin: 20px 0;
+    padding: 0 40px;
+  }
+    .menu .meals {
+        display: flex;
+        justify-content: space-around;
+    }
+      .menu .meals .meal {
+          margin: 10px 15px;
+      }
+
+@media only screen and (max-width: 650px) {
+  .menu .content {
+    padding: 0 20px;
+  }
+}
