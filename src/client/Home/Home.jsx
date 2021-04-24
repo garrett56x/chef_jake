@@ -15,9 +15,9 @@ export default function Home() {
       <Hero backgroundImage={BackgroundImage} phrase="Chef Jacob B. Thompson" subPhrase="Preparing Food for any intolerance, allergies, dietary restrictions or illness recovery" phraseFont="'Kaushan Script', cursive" />
       <div>
         <div className={classes.sectionWrapper}>
-          <div className={classes.howWeMet}>
-            <img className={classes.hwmPhoto} alt="btp" src={jake} />
-            <div className={classes.hwmContent}>
+          <div className={classes.about}>
+            <img className={classes.photo} alt="btp" src={jake} />
+            <div className={classes.content}>
               <Typography className={classes.title} variant="h4">About Chef Thompson</Typography>
               <Typography variant="body1">
               "Food heals." - At age thirteen I learned this powerful truth when my sister was diagnosed as a type one diabetic. I began to explore her new diet and slowly pushed my mom out of the kitchen in order to teach myself the palliative qualities of food and bring nourishment into my family. My passion for therapeutic and mindful food preparation grew and my path lead me to Bauman College of Holistic Nutrition and Culinary Arts, where I graduated as a certified natural chef. My experience has developed with time and a few jobs opportunities preparing farm-to-table meals at Frog Belly Farm and working in multiple farm-to–table style restaurants in Boulder, Colorado.

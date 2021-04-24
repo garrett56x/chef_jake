@@ -1,0 +1,20 @@
+.catering {
+}
+  .catering .content {
+    text-align: left;
+    margin: 20px 0;
+    padding: 0 40px;
+  }
+    .catering .meals {
+      display: flex;
+      flex-direction: column;
+    }
+      .catering .meals .meal {
+          margin: 10px 15px;
+      }
+
+@media only screen and (max-width: 650px) {
+  .catering .content {
+    padding: 0 20px;
+  }
+}

@@ -4,10 +4,9 @@ import { ThemeProvider } from "@material-ui/core";
 import "./App.css";
 import Home from "./client/Home/Home.jsx";
 import Contact from "./client/Contact/Contact.jsx";
-import WhyCleanse from "./client/WhyCleanse/WhyCleanse.jsx";
-import SpecialtyCleanse from "./client/SpecialtyCleanse/SpecialtyCleanse.jsx";
+import Catering from "./client/Catering/Catering.jsx";
 import Navigation from "./client/Components/Navigation/Navigation.jsx";
-import ChefMenu from "./client/ChefMenu/ChefMenu.jsx";
+import Services from "./client/Services/Services.jsx";
 import Sidebar from "./client/Components/Sidebar/Sidebar.jsx";
 import ScrollToTop from "./client/Components/ScrollToTop/ScrollToTop.jsx";
 import { IconButton } from "@material-ui/core";
@@ -56,17 +55,14 @@ export default function App() {
           </div>
 
           <Switch>
-            <Route path="/specialty-cleanse">
-              <SpecialtyCleanse />
+            <Route path="/catering">
+              <Catering />
             </Route>
             <Route path="/contact">
               <Contact />
             </Route>
-            <Route path="/why-cleanse">
-              <WhyCleanse />
-            </Route>
-            <Route path="/menu">
-              <ChefMenu />
+            <Route path="/services">
+              <Services />
             </Route>
             <Route exact path="/">
               <Home />
